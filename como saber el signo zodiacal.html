@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSFiddle Lyn159o7</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  
+
+  <script>
+     var dia;
+var mes;
+
+alert("Para saber cual es su signo zodiacal debe de ingresar su dia y mes de nacimiento");
+
+dia= prompt("Ingrese el dia");
+while (isNaN(dia)||dia===""|| dia=== null||dia <1|| dia >31)
+{
+  dia= prompt( "valor invalido  Ingrese el dia");
+}
+
+mes= prompt("Ingrese el mes");
+while (isNaN(mes)|| mes ===""|| mes === null||mes <1|| mes >12)
+{
+  mes= prompt( "valor invalido Ingrese el mes");
+}
+
+if ((mes == 3 && dia >= 21) || (mes == 4 && dia <= 20))  
+{
+  alert("Su signo Zodiacal es Aries ");
+}
+if ((mes == 4 && dia >= 21) || (mes == 5 && dia <= 20))  
+{
+  alert("Su signo Zodiacal es Tauro ");
+}
+if ((mes == 5 && dia >= 21) || (mes == 6 && dia <= 20))  
+{
+  alert("Su signo Zodiacal es Gemenis ");
+}
+if ((mes == 6 && dia >= 21) || (mes == 7 && dia <= 20))  
+{
+  alert("Su signo Zodiacal es Cáncer ");
+}
+if ((mes == 7 && dia >= 21) || (mes == 8 && dia <= 22))  
+{
+  alert("Su signo Zodiacal es Leo ");
+}
+if ((mes == 8 && dia >= 24) || (mes == 9 && dia <= 22))  
+{
+  alert("Su signo Zodiacal es Virgo ");
+}
+if ((mes == 9 && dia >= 23) || (mes == 10 && dia <= 23))  
+{
+  alert("Su signo Zodiacal es Libra ");
+}
+if ((mes == 10 && dia >= 24) || (mes == 11 && dia <= 22))  
+{
+  alert("Su signo Zodiacal es Escorpio ");
+}
+if ((mes == 11 && dia >= 23) || (mes == 12 && dia <= 21))  
+{
+  alert("Su signo Zodiacal es Sagitario ");
+}
+if ((mes == 12 && dia >= 22) || (mes == 1 && dia <= 20))  
+{
+  alert("Su signo Zodiacal es Capricornio ");
+}
+if ((mes == 1 && dia >= 21) || (mes == 2 && dia <=19))  
+{
+  alert("Su signo Zodiacal es Acuario ");
+}
+if ((mes == 2 && dia >= 20) || (mes == 3 && dia <= 20))  
+{
+  alert("Su signo Zodiacal es Picsis ");
+}
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
